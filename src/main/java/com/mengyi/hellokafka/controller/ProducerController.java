@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 public class ProducerController {
+    //hello liuhuan
     @Autowired
     private KafkaTemplate<String,Object> kafkaTemplate;
     @RequestMapping("message/send")
